@@ -1,18 +1,15 @@
-# Đề xuất gold set theo camera — tình huống giả lập
-
-**Đầu bài:** 50.000 frame từ bốn camera SVM, ngân sách chọn 200 frame để review/gold. Đây là tình huống trên slide,
-**không phải** 50.000 frame có trong repo. Phân bổ đúng 200 ở `45_sampling_plan.csv` cho bốn camera, mỗi camera có
-normal và hard slice. “Gold set” ở đây là **kế hoạch tạo** reference sau kiểm chứng, không phải teaching reference
-ADASIND hoặc nhãn bạn vừa vẽ. Nếu cần, dùng `notebooks/day11-svm360-colab.ipynb` để thử tổng phân bổ; notebook
-không làm thay phần lý do.
-
-| camera_id | Hard case cần chọn | Vì sao dễ sai | Annotation space / calibration cần giữ | Cách review trước khi gọi là gold |
-|---|---|---|---|---|
-| front | TODO | TODO | TODO | TODO |
-| rear | TODO | TODO | TODO | TODO |
-| left | TODO | TODO | TODO | TODO |
-| right | TODO | TODO | TODO | TODO |
-
-- Khi nào cần refresh gold set (đổi camera, calibration hoặc rule): TODO
-- Một ca seam/cross-camera cần policy và evidence trước khi ghép hai box: TODO
-- Vì sao peer agreement hoặc quality report trên ảnh một camera chưa chứng minh gold set đúng cho cả bốn camera: TODO
+# Ke hoach Gold Set 4 camera SVM 360
+## Tieu chi chon mau gold
+| Camera | Ca normal | Ca hard | Nguoi soat |
+|---|---|---|---|
+| front | Phuong tien ro khong bi che | Nguoc sang xe nho cuc ria | Annotator 2 |
+| rear | Xe theo sau khoang cach ro | Nguoi di bo bi xe lon che | Annotator 2 |
+| left | Xe may canh duong khong seam | Vat tai seam trai-truoc | Annotator 3 |
+| right | Xe may phai ego_body nho | Vat tai seam phai-sau + ego | Annotator 3 |
+## Quy trinh xac nhan gold
+1. Annotator ve nhan doc lap.
+2. Nguoi soat thu 2 kiem bang guideline v1.0.0.
+3. Bat dong hop 3 ben: ghi quyet dinh 40_decision_log.csv.
+4. Chi khi 3 dong thuan moi goi la gold frame.
+## Dieu kien refresh
+Rebuild khi guideline bump hoac disagreement rate >15%.

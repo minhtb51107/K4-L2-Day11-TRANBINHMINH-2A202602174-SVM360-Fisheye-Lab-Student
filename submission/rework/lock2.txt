@@ -1,0 +1,19 @@
+round: rework
+slice: B4-edge
+sha256: 9240dc28b2097ed43d6224c8c6b430fcc03997cf17cd4d406fd9786b43114c2f
+code: 9240-DC28
+locked_at: 2026-09-29T12:06:20+07:00
+shapes: box=23, polygon=9
+prefill_kept: 7
+prefill_edited: 0
+new: 16
+history:
+  round: rework
+  slice: B4-edge
+  sha256: e89c93086962289ac1cf333cdf730dff65148b84e452f12db52b678b22e2cd5f
+  code: E89C-9308
+  locked_at: 2026-09-29T10:56:33+07:00
+  shapes: box=9, polygon=9
+  prefill_kept: 8
+  prefill_edited: 0
+  new: 1

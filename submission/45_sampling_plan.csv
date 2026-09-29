@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,35,Vat can bi meo ria kinh truoc,Camera truoc nhieu phuong tien
+front,hard,15,Nguoc sang xe nho cuc ria,Dieu kien kho nhat camera truoc
+rear,normal,30,Xe tai lon tiep can tu phia sau,Camera sau theo doi phuong tien
+rear,hard,20,Nguoi di bo bi xe lon che dem mua,Kho nhat camera sau
+left,normal,25,Xe 2 banh song song ego cat lens_border,Camera trai xe may canh duong
+left,hard,20,Vat tai seam goc trai-truoc,Seam kho nhat camera trai
+right,normal,25,Xe may bi cat boi vong kinh phai,Tuong tu trai mat do xe may cao hon
+right,hard,30,Seam goc phai-sau + ego_body che,Seam phai-sau kho nhat

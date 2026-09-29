@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotations>
+ <version>1.1</version>
+ <image id="0" name="parking-lot-core.jpg" width="1280" height="853">
+  <polyline label="parking_line" occluded="0" source="manual" points="215.00,520.00;215.00,710.00" z_order="0">
+  </polyline>
+  <polyline label="parking_line" occluded="0" source="manual" points="305.00,510.00;310.00,715.00" z_order="0">
+  </polyline>
+  <polygon label="free_space" occluded="0" source="manual" points="320.00,500.00;960.00,495.00;980.00,700.00;315.00,708.00" z_order="0">
+  </polygon>
+ </image>
+</annotations>

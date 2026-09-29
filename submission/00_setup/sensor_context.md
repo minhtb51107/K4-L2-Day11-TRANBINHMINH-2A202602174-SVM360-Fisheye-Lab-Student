@@ -1,6 +1,5 @@
 # Sensor context
-
-- TODO — Rig: mô tả ngắn xe/camera gắn ở đâu theo hiểu biết của bạn từ ảnh (ADASIND không kèm tài liệu rig chi
-  tiết, ghi theo quan sát).
-- TODO — `ego_body` nhìn thấy ở đâu trong frame (góc capo, gương, tay lái...).
-- TODO — Vòng kính (lens circle) nằm ở vị trí nào trong ảnh, chiếm khoảng bao nhiêu phần khung hình.
+- Rig: Camera fisheye 360 huong xuong mat duong, vong kinh hinh tron ~180 do.
+- ego_body o day frame (y > 1600px), lens_border o 4 goc toi ngoai vong kinh.
+- Nguon du lieu: ADASIND fisheye dataset (Singh, Biswas, Paul 2022).
+- Ban kinh vong kinh xap xi 530-540 px trong anh 1080x1920.

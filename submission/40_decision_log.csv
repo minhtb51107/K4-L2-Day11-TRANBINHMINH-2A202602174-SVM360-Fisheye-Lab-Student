@@ -1,1 +1,7 @@
-id,date,question,decision,rationale,status
+id,timestamp,round,frame,decision,evidence,status,owner
+D001,2026-09-29T10:56:32+07:00,calib,adasind_019560.jpg,Giu ThreeWheeler cho escalation R04,R04 chua ro voi xe 3 banh nho,escalated,guideline
+D002,2026-09-29T10:56:32+07:00,r1_craft,adasind_236370.jpg,Rework Truck bo sot H=88px P0,RM_noL vung center lo vat lon ro rang,reworked,annotator
+D003,2026-09-29T10:56:32+07:00,r3_diag,adasind_258420.jpg,Giu Car LM_noR nghi E0_reference_defect,L va M dong thuan R khong co,escalated,data_ops
+D004,2026-09-29T10:56:32+07:00,r3_diag,adasind_310008.jpg,Giu nguyen cho escalation M3 Pedestrian,E5_unresolved can anh full-res,escalated,data_ops
+D005,2026-09-29T10:56:32+07:00,r1_craft,adasind_236370.jpg,truncated=true cho box cham lens_border R05,QA phat hien r2_qa sua trong rework,reworked,annotator
+D006,2026-09-29T12:05:00+07:00,rework,adasind_236370.jpg,Sua box Bike keo bao ca nguoi lai xe theo Luat R03,R03 quy dinh xe 2 banh va nguoi lai la 1 box Bike duy nhat,reworked,annotator

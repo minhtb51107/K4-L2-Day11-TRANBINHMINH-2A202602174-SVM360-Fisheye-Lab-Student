@@ -1,0 +1,19 @@
+round: calib
+slice: C0
+sha256: 476ad65549b224e2c1cd251a5116581ae2cba7ad5aac267b52b85ae9b0073e8a
+code: 476A-D655
+locked_at: 2026-09-29T12:06:20+07:00
+shapes: box=5, polygon=3
+prefill_kept: 0
+prefill_edited: 0
+new: 5
+history:
+  round: calib
+  slice: C0
+  sha256: 41d0b679017119751dc436e3df846ef729372e05ed9f99ffafb42466912811b1
+  code: 41D0-B679
+  locked_at: 2026-09-29T10:48:29+07:00
+  shapes: box=3, polygon=3
+  prefill_kept: 0
+  prefill_edited: 0
+  new: 3
